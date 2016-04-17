@@ -1,4 +1,4 @@
-update=Friday, April 15, 2016 'AMt' 08:03:31 AM
+update=Saturday, April 16, 2016 'PMt' 08:14:35 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -106,5 +106,5 @@ LibName74=ttl_ieee
 LibName75=video
 LibName76=Xicor
 LibName77=Zilog
-LibName78=sma_edge
-LibName79=sma
+LibName78=picpet
+LibName79=SMA_EDGE
