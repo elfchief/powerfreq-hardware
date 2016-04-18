@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HAMMOND-161E120
+D Hammond 161E120, 1.2VA, Dual Secondary, Power Transformer, PCB
+K 1.2VA PCB Transformer Dual Secondary
+F http://www.hammondmfg.com/160.htm
+$ENDCMP
+#
+#End Doc Library
