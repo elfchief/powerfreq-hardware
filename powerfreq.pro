@@ -1,4 +1,4 @@
-update=4/17/2016 9:52:42 PM
+update=4/23/2016 6:03:00 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -109,3 +109,4 @@ LibName77=Zilog
 LibName78=picpet
 LibName79=SMA_EDGE
 LibName80=transformers-hammond
+LibName81=mikroe

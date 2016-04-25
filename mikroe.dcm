@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIKROE-483
+D USB to Serial Interface, Add-On Board
+K USB Serial
+F http://www.mouser.com/ds/2/272/usb_uart_manual_v100-32094.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name SMA_EDGE)(type Legacy)(uri "$(KIPRJMOD)/SMA_EDGE.mod")(options "")(descr ""))
   (lib (name transformers-hammond)(type KiCad)(uri C:\Users\elfchief\Documents\SmartGit\powerfreq-hardware\transformers-hammond.pretty)(options "")(descr ""))
+  (lib (name mikroe)(type KiCad)(uri "$(KIPRJMOD)\\mikroe.pretty")(options "")(descr ""))
 )
