@@ -575,9 +575,6 @@ Wire Wire Line
 	2700 1600 2700 1800
 Connection ~ 2700 1800
 Wire Wire Line
-	3050 2700 3150 2700
-Connection ~ 3150 2700
-Wire Wire Line
 	2450 1900 2450 1800
 Connection ~ 2450 1800
 Wire Wire Line
