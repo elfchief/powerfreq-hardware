@@ -1,4 +1,4 @@
-update=4/23/2016 6:03:00 PM
+update=4/28/2016 9:27:14 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -110,3 +110,13 @@ LibName78=picpet
 LibName79=SMA_EDGE
 LibName80=transformers-hammond
 LibName81=mikroe
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
