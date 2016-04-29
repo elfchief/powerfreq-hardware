@@ -12,6 +12,7 @@ this one, though: https://www.youtube.com/watch?v=H7y-oJYpDkM
 
 ## Theory of Operation
 This circuit has three connections into it:
+
 1. The AC mains @ 120v RMS, on which the measurement is performed, provided 
 by standard IEC 60320 'C14' connector.
 2. A precision 10MHz reference, against which measurements are made
@@ -96,22 +97,22 @@ least in a general sense.
 
 Things I don't know:
 
-   * Is the fuse on the line side of the transformer sufficient for the 
+* Is the fuse on the line side of the transformer sufficient for the 
 transformer's inrush current?
 
-    * Assuming there's sufficient clearance in the PCB laytout around the line
+* Assuming there's sufficient clearance in the PCB laytout around the line
 side of the transformer, is this design 'safe'? Is there additional 
 isolation we could do (without adding jitter or phase noise)?
 
-    * Does the isolated side of the transformer also need a fuse?
+* Does the isolated side of the transformer also need a fuse?
 
-    * What voltage rating should C1 and C5 be? Do they have to take the full
+* What voltage rating should C1 and C5 be? Do they have to take the full
 line voltage?
 
-    * Where is the line in the sand where 'low voltage' starts? Is C2 the
+* Where is the line in the sand where 'low voltage' starts? Is C2 the
 dividing line for that?
 
-    * What the heck is D2 for? It was on the reference circuit I borrowed, but
+* What the heck is D2 for? It was on the reference circuit I borrowed, but
 I don't actually know the reason for it.
 
-    * Are there other stupidities here, or large improvements that could be made?
+* Are there other stupidities here, or large improvements that could be made?
