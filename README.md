@@ -55,6 +55,9 @@ characterized, and can be subtracted out at the processing stage.
 The 3.3v for the logic is supplied by the USB connection via the FTDI chip
 (see below).
 
+The clamp and trigger circuitry is courtesy of Charles Steinmetz and is documented
+[here](http://www.ko4bb.com/manuals/98.248.63.64/Simple_AC_mains_zero_cross_detector.pdf)
+
 
 ### picPET
 The picPET is a simple timestamp counter (TSC) in 8 pin form. It is a PIC
@@ -63,7 +66,7 @@ clock, and outputs timestamps for the rising edge of signals on its input
 pin. The timestamps geerated are accurate to within ~400ns, and are output
 as low voltage RS232 signals (otput voltage == Vcc).
 
-See http://www.leapsecond.com/pic/picpet.htm for more details on the picPET
+See [here](http://www.leapsecond.com/pic/picpet.htm) for more details on the picPET
 
 The picPET is also driven from the FTDI chip.
 
@@ -88,6 +91,12 @@ further changes, beyond possibly having to boost the input clock.
 The FTDI chip appears to the attached computer as a standard serial port,
 and sends the output serial data from the picPET directly to it with minimal
 processing.
+
+The carrier board being used is a MikroElektronika 483. The datasheet for that
+board is [here](http://www.mouser.com/ds/2/272/usb_uart_manual_v100-32094.pdf). The
+specific FTDI chip provided by that carrier board is the FT232RL, and the 
+datasheet for that is [here](http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf).
+We are using the FT232RL in its default configuration.
 
 
 ## Open Questions
